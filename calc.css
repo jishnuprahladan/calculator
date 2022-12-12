@@ -1,0 +1,39 @@
+.container{
+    /* background-color: rgba(34, 33, 33, 0.767); */
+}
+form{
+    box-shadow: 1px 1px 20px 1px rgb(8, 8, 8);
+    height: 480px;
+    width: 300px ;
+    margin: 65px auto;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(243, 240, 240, 0.863);
+}
+.btn{
+height: 50px;
+width: 50px;
+margin: 5px;
+box-shadow: 1px 4px 3px 1px rgb(7, 7, 7);
+cursor: pointer;
+}
+.btn1{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    box-shadow: 1px 2px 3px 1px rgb(7, 7, 7);
+    cursor: pointer;
+    background-color: rgb(184, 233, 48);
+    border-radius: 20px;
+ margin-left: 0px;
+}
+
+.screen{
+    background-color: rgba(214, 208, 208, 0.555);
+    border: 0px;
+    border-radius: 30px;
+    width: 250px;
+    margin-top: 10px;
+    height: 40px;
+    padding: 20px;
+}
