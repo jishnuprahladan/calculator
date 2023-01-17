@@ -21,51 +21,31 @@
         <div class="row">
             <div class="col-12 text-center">
 
-                <form action="">
+                <form action="" class="bg-dark">
 
-                    <h1 class="text-center">calculator</h1>
-                    <hr>
-                    <input type="text" class="screen "  >
+                    <h1 class="text-center text-secondary">Calculator</h1>
+                    <hr class="text-light">
+                    <input id="result" type="text" class="screen "  >
                     <div class="button_box mt-3 p-2">
-                        <input type="button" class="btn btn-primary" value="1">
-
-                        <input type="button" class="btn btn-primary " value="2">
-
-                        <input type="button" class="btn btn-primary" value="3">
-
-                        <input type="button" class="btn btn-primary" value="/"><br>
-
-                        <input type="button" class="btn btn-primary" value="4">
-
-                        <input type="button" class="btn btn-primary" value="5">
-
-                        <input type="button" class="btn btn-primary" value="6">
-
-                        <input type="button" class="btn btn-primary" value="x"><br>
-
-                        <input type="button" class="btn btn-primary" value="7">
-
-                        <input type="button" class="btn btn-primary" value="8">
-
-                        <input type="button" class="btn btn-primary" value="9">
-
-                        <input type="button" class="btn btn-primary" value="-"><br>
-
-                        <input type="button" class="btn btn-primary" value="0">
-
-                        <input type="button" class="btn btn-primary" value=".">
-
-                        <input type="button" class="btn btn-primary" value="+">
-
-                        <input type="button" class="btn btn-primary" value="%"><br>
-
-                        <input type="button" class="btn btn-primary" value="AC">
-
-                        <input type="button" class="btn btn-primary" value="(">
-
-                        <input type="button" class="btn btn-primary" value=")">
-
-                        <input type="button" class="btn1" value="=">
+                        <input type="button"  onclick="displaydata(1)" class="btn btn-primary" value="1">
+                        <input type="button" onclick="displaydata(2)" class="btn btn-primary " value="2">
+                        <input type="button" onclick="displaydata(3)" class="btn btn-primary" value="3">
+                        <input type="button" onclick="displaydata('/')" class="btn btn-primary" value="/"><br>
+                        <input type="button" onclick="displaydata(4)" class="btn btn-primary" value="4">
+                        <input type="button" onclick="displaydata(5)" class="btn btn-primary" value="5">
+                        <input type="button" onclick="displaydata(6)" class="btn btn-primary" value="6">
+                        <input type="button" onclick="displaydata('*')" class="btn btn-primary" value="x"><br>
+                        <input type="button" onclick="displaydata(7)" class="btn btn-primary" value="7">
+                        <input type="button" onclick="displaydata(8)" class="btn btn-primary" value="8">
+                        <input type="button" onclick="displaydata(9)" class="btn btn-primary" value="9">
+                        <input type="button" onclick="displaydata('-')" class="btn btn-primary" value="-"><br>
+                        <input type="button" onclick="displaydata(0)" class="btn btn-primary" value="0">
+                        <input type="button" onclick="displaydata('.')" class="btn btn-primary" value=".">
+                        <input type="button" onclick="displaydata('+')" class="btn btn-primary" value="+">
+                        <input type="button" onclick="displaydata('%')" class="btn btn-primary" value="%"><br>
+                        <input type="button" onclick="Allclear()" class="btn btn-danger" value="AC">
+                        <input type="button" onclick="Backspace()" class="btn btn-secondary col-5" value="&#9003;">
+                        <input type="button" onclick="Eval()" class="btn btn-warning" value="=">
                     </div>
                 </form>
 
@@ -73,5 +53,6 @@
         </div>
     </div>
 </body>
+<script src="./calc.js"></script>
 
 </html>

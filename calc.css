@@ -17,16 +17,16 @@ margin: 5px;
 box-shadow: 1px 4px 3px 1px rgb(7, 7, 7);
 cursor: pointer;
 }
-.btn1{
-    height: 60px;
-    width: 60px;
+/* .btn1{
+    height: 50px;
+    width: 50px;
     margin: 5px;
     box-shadow: 1px 2px 3px 1px rgb(7, 7, 7);
     cursor: pointer;
     background-color: rgb(184, 233, 48);
     border-radius: 20px;
  margin-left: 0px;
-}
+} */
 
 .screen{
     background-color: rgba(214, 208, 208, 0.555);
